@@ -1,2 +1,2 @@
-# My personal linux config
+# My personal arch linux config
 
