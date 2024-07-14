@@ -1,4 +1,4 @@
-# My personal linux config
+# My personal arch linux config
 
 ## Issues
 1. Recently hyprland seem not fully support brave browser: It crash after 30 mins.
