@@ -1,0 +1,9 @@
+#! /bin/bash
+
+echo 'Using personal Dotfiles PATH'
+
+# Android Studio
+export PATH=$PATH:$HOME/Applications/android-studio
+
+# start hyprland
+alias hyprland-start='Hyprland -c dotfiles/config/hypr/hyprland.conf'

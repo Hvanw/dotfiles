@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function paru_installer() {
+  echo "Installing paru ..."
+  echo "Cloning dependency from source ..."
+  git clone https://aur.archlinux.org/paru.git ~/dotfiles/srcs/paru
+  (cd ~/dotfiles/srcs/paru/ && makepkg -si)
+}
+
+function eww_installer() {
+  echo "Installing necessary packages ..."
+}
