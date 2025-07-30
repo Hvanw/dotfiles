@@ -1,19 +1,19 @@
 # Mobile Developer CV
 
 ## Contact Information
-- **Name**: [Your Name]
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Profile]
-- **Phone**: [Your Phone Number]
+- **Name**: Văn Minh Huy
+- **Email**: vanhuy2710@gmail.com
+- **GitHub**: https://github.com/Hvanw
+- **Phone**: (+84) 354 726 583
 
 ## Summary
 Dedicated Mobile Developer with 4 years of experience building cross-platform and native mobile applications. Proficient in Flutter, React Native, Kotlin, and Java, with a strong focus on delivering user-centric solutions. Experienced in integrating payment gateways, APIs, and location-based services. Holds a certificate from VTC Academy and a non-related degree from Hanoi University of Science and Technology.
 
 ## Education
 - **VTC Academy**  
-  Mobile Development Certificate, [Year of Completion]
+  Mobile Development Certificate, 2021
 - **Hanoi University of Science and Technology**  
-  Bachelor’s Degree (Non-related field), [Year of Completion]
+  Bachelor’s Degree (Non-related field), 2019
 
 ## Technical Skills
 - **Languages & Frameworks**: Flutter, React Native, Kotlin, Java
@@ -26,7 +26,7 @@ Dedicated Mobile Developer with 4 years of experience building cross-platform an
 ### Key Projects
 - **FixME (Flutter, Golang)**  
   A service-booking app for home cleaning and appliance repair, similar to Grab. Integrated VNPay, MoMo, and Google Maps for seamless payments and location services. Deployed on iOS and Android.
-- **pre:mind (Flutter, Django)**  
+- **Pre:MIND (Flutter, Django)**  
   Restaurant booking app using iBeacon for proximity-based notifications and Stripe for payments. Successfully deployed on both iOS and Android platforms.
 - **Galaxy Pynt (Flutter, NestJS)**  
   Escape game room booking app with VNPay integration, similar to movie ticket platforms. Currently in development, nearing deployment.
@@ -49,4 +49,3 @@ Dedicated Mobile Developer with 4 years of experience building cross-platform an
 ## Additional Information
 - Passionate about creating intuitive mobile experiences and exploring emerging technologies.
 - Strong problem-solving skills and a proven track record in delivering projects under tight deadlines.
-- Portfolio available on [GitHub Profile Link].
