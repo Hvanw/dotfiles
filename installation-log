@@ -1,0 +1,73 @@
+ios-developement:
+  requirements:
+    - homebrew
+  commands:
+    - brew install cocoapods
+    - sudo gem install cocoapods
+  notes:
+    - Install cocoapods with Homebrew => latest version
+    - Install cocoapods with default MacOS ruby => lts version
+flutter:
+  pre-install:
+    platforms:
+      macos:
+        arch:
+          arm64:
+            actions:
+              - sudo softwareupdate --install-rosetta --agree-to-license
+  commands:
+    - git clone https://github.com/flutter/flutter.git
+react-native:
+  commands:
+    - brew install node
+    - brew install watchman
+firebase-tools:
+  requirements:
+    - node-js
+  commands:
+    - npm install -g firebase-tools
+  post-installation:
+node-js:
+  commands:
+    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+    - nvm install 22
+  notes:
+    - After running the first command, instead of restarting the shell, run the commands
+    - \. "$HOME/.nvm/nvm.sh"
+  health-check:
+    - nvm --version
+    - node --version
+    - npm --version
+  post-installation:
+    - echo 'export NVM_DIR="$HOME/.nvm"' >> $HOME/.zshrc
+    - echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $HOME/.zshrc
+    - echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"' >> $HOME/.zshrc
+openvpn:
+  requirements:
+    - homebrew
+    - autoconf
+    - automake
+    - libtool
+  commands:
+    - git clone https://github.com/OpenVPN/openvpn
+  post-installation:
+    - cd openvpn
+    - autoreconf -i -v -f
+homebrew:
+  commands:
+    - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  post-installation:
+    - echo >> $HOME/.zshrc
+    - echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zshrc
+    - eval "$(/opt/homebrew/bin/brew shellenv)"
+autoconf:
+  commands:
+    - brew install autoconf
+automake:
+  commands:
+    - brew install automake
+libtool:
+  commands:
+    - brew install libtool
+  post-installation:
+    - echo 'export PATH="opt/homebrew/opt/libtool/libexec/gnubin:$PATH"' >> $HOME/.zshrc
